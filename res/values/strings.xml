@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drinks Gage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_drinks">Drinks you had</string>
+    <string name="title_activity_result">Result</string>
+    
+    <string name="BACeffects0">No effects are visible.</string>
+    <string name="BACeffects1">No loss of coordination, slight euphoria and loss of shyness. Depressant effects are not apparent. Mildly relaxed and maybe a little lightheaded.</string>
+    <string name="BACeffects2">Feeling of well-being, relaxation, lower inhibitions, sensation of warmth. Euphoria. Some minor impairment of reasoning and memory, lowering of caution. Your behavior may become exaggerated and emotions intensified (Good emotions are better, bad emotions are worse).</string>
+    <string name="BACeffects3">Slight impairment of balance, speech, vision, reaction time, and hearing. Euphoria. Judgment and self-control are reduced, and caution, reason and memory are impaired, .08 is legally impaired and it is illegal to drive at this level. You will probably believe that you are functioning better than you really are.</string>
+    <string name="BACeffects4">Significant impairment of motor coordination and loss of good judgment. Speech may be slurred; balance, vision, reaction time and hearing will be impaired. Euphoria.</string>
+    <string name="BACeffects5">Gross motor impairment and lack of physical control. Blurred vision and major loss of balance. Euphoria is reduced and dysphoria (anxiety, restlessness) is beginning to appear. Judgment and perception are severely impaired.</string>
+    <string name="BACeffects6">Dysphoria predominates, nausea may appear. The drinker has the appearance of a "sloppy drunk."</string>
+    <string name="BACeffects7">Felling dazed, confused or otherwise disoriented. May need help to stand or walk. If you injure yourself you may not feel the pain. Some people experience nausea and vomiting at this level. The gag reflex is impaired and you can choke if you do vomit. Blackouts are likely at this level so you may not remember what has happened.</string>
+    <string name="BACeffects8">All mental, physical and sensory functions are severely impaired. Increased risk of asphyxiation from choking on vomit and of seriously injuring yourself by falls or other accidents.</string>
+    <string name="BACeffects9">STUPOR. You have little comprehension of where you are. You may pass out suddenly and be difficult to awaken.</string>
+    <string name="BACeffects10">Coma is possible. This is the level of surgical anesthesia</string>
+    <string name="BACeffects11">Onset of coma, and possible death due to respiratory arrest.</string>
+    
+
+</resources>

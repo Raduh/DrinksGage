@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bkg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ResultActivity" >
+ 	
+ 	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+	    <RelativeLayout android:id="@+id/upper_linear_lay"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent">
+	
+	        <TextView
+		        android:id="@+id/result_bac"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="0.00" 
+		        android:textSize="65sp"
+		        android:textStyle="bold"
+		        android:textColor="#000000"
+		        android:gravity="center_vertical"
+		        android:layout_alignParentLeft="true"/>
+	        
+	        <TextView
+	            android:id="@+id/result_bac_unit"
+	            android:layout_alignBottom="@+id/result_bac"
+	            android:layout_toRightOf="@+id/result_bac"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="(g/L)"
+	            android:textColor="#000000"
+	            android:layout_marginBottom="15dp"
+	            android:layout_marginLeft="2dp"
+	            android:textSize="18sp"/>
+
+	        <ImageView
+	            android:id="@+id/image_bac"
+	            android:layout_width="80dp"
+	            android:layout_height="80dp"
+	            android:layout_margin="2dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/baceffects0" />
+
+		</RelativeLayout>
+		
+	    <View 
+	        android:id="@+id/first_line_separator"
+	        android:layout_below="@+id/upper_linear_lay"
+	        android:background="#000000"
+	        android:layout_width="match_parent"
+	        android:layout_height="2dp"/>
+   	    <View 
+	        android:id="@+id/second_line_separator"
+	        android:layout_below="@+id/first_line_separator"
+	        android:layout_marginTop="3dp"
+	        android:background="#000000"
+	        android:layout_width="match_parent"
+	        android:layout_height="2dp"/>
+   	    
+   	    <TextView 
+   	        android:id="@+id/consumption_sum"
+   	        android:layout_below="@+id/second_line_separator"
+   	        android:layout_marginTop="20dp"
+   	        android:textSize="20sp"
+   	        android:layout_height="wrap_content"
+   	        android:layout_width="wrap_content"
+   	        android:text="&#8226; You drank the following:"/>
+   	    
+   	    <TextView 
+   	        android:id="@+id/bac_description"
+   	        android:layout_below="@+id/consumption_sum"
+   	        android:layout_marginTop="10dp"
+   	        android:textSize="20sp"
+   	        android:layout_height="wrap_content"
+   	        android:layout_width="wrap_content"
+   	        android:text="&#8226; No effects are visible."/>
+   	    
+   	    <TextView 
+   	        android:id="@+id/how_much_left"
+   	        android:layout_below="@+id/bac_description"
+   	        android:layout_marginTop="5dp"
+   	        android:textSize="20sp"
+   	        android:layout_height="wrap_content"
+   	        android:layout_width="wrap_content"
+   	        android:text="&#8226; At your current BAC, you will reach 0 in: "/>
+   	    
+   	    <Button
+   	        android:id="@+id/chronom"
+   	        android:layout_below="@id/how_much_left"
+   	        android:layout_centerHorizontal="true"
+   	        android:layout_marginTop="10dp"
+   	        android:layout_height="wrap_content"
+   	        android:layout_width="wrap_content"
+   	        android:background="@drawable/button_sexy_dial"
+   	        android:text="0 hours 0 minutes"
+   	        android:onClick="closeResult"/>
+   	    
+<!--    	    <View -->
+<!--    	        android:layout_below = "@+id/chronom" -->
+<!--    	        android:layout_width = "match_parent" -->
+<!--    	        android:layout_height = "50dp" -->
+<!--    	        android:layout_marginTop = "15dp" -->
+<!--    	        android:background = "#FFAAFDFF"/> -->
+   	    
+<!--    	    <Button -->
+<!--    	        android:layout_below="@+id/chronom" -->
+<!--    	        android:layout_width="wrap_content" -->"
+<!-- 	    	android:layout_height="50dp" -->
+<!-- 	    	android:layout_marginTop="20dp" -->
+<!-- 	    	android:background="@drawable/share_buttons" -->
+<!-- 	    	android:onClick="shareIt"/> -->
+
+	   	    <Button
+	   	        android:layout_below="@+id/chronom"
+	   	        android:layout_width="wrap_content"
+		    	android:layout_height="75dp"
+		    	android:layout_marginTop="20dp"
+		    	android:background="@drawable/share_buttons"
+		    	android:onClick="shareIt"/>
+
+	
+	</RelativeLayout>
+
+</ScrollView>

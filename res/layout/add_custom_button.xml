@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+       
+      <Button
+       android:id="@+id/add_custom"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/add_another_button"
+       style="?android:attr/borderlessButtonStyle"
+       android:text="Add another drink"
+       android:textStyle="italic" 
+       android:textColor="#BDB5B8"
+       android:paddingTop="5dp"
+       android:drawableTop="@drawable/plus_ic"/>
+   
+
+</LinearLayout>
