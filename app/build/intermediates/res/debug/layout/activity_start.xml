@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@drawable/gradient_bkg"
+    tools:context=".StartActivity" >
+
+	<TableLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+	<TableRow android:layout_weight="1.0">
+   <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="15dp"
+       android:gravity="center">
+       
+    	<Button
+    	    android:id="@+id/consumption"
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="0dip"
+    	    android:layout_marginRight="15dp"
+    	    android:layout_weight="1"
+    	    android:background="@drawable/button_sexy"
+    	    android:text="Drinks you had"
+    	    android:drawableLeft="@drawable/drinks"
+    	    android:onClick="startDrinks"/>
+
+    	<Button
+    	    android:id="@+id/body_data"
+    	    android:layout_height="match_parent"
+    	    android:layout_width="0dip"
+    	    android:layout_marginLeft="15dp"
+    	    android:layout_weight="1"
+    	    android:background="@drawable/button_sexy"
+    	    android:text="Body data"
+    	    android:onClick="setBodyData"
+    	    android:drawableLeft="@drawable/body_data"/>
+        
+   </LinearLayout></TableRow>
+
+	<TableRow android:layout_weight="1">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:gravity="center" >
+
+       <Button
+           android:id="@+id/result"
+           android:layout_height="match_parent"
+           android:layout_width="0dip"
+           android:layout_marginRight="15dp"
+           android:layout_weight="1"
+           android:background="@drawable/button_sexy"
+           android:text="Result"
+           android:onClick="showResult"
+           android:drawableLeft="@drawable/results" />
+
+       <Button
+           android:id="@+id/reset"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_marginLeft="15dp"
+           android:layout_weight="1"
+           android:background="@drawable/button_sexy"
+           android:text="Reset"
+           android:onClick="clearData"
+           android:drawableLeft="@drawable/reset"/>
+   </LinearLayout>
+   </TableRow>
+   </TableLayout>
+
+</RelativeLayout>
+<!-- From: file:/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/activity_start.xml -->

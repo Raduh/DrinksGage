@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res" >
+            <file
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="start"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/menu/start.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="result"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/menu/result.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="drinks"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/menu/drinks.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="BACeffects10" >Coma is possible. This is the level of surgical anesthesia
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="BACeffects11" >Onset of coma, and possible death due to respiratory arrest.
+                </string>
+                <string name="title_activity_drinks" >Drinks you had
+                </string>
+                <string name="BACeffects4" >Significant impairment of motor coordination and loss of good judgment. Speech may be slurred; balance, vision, reaction time and hearing will be impaired. Euphoria.
+                </string>
+                <string name="BACeffects5" >Gross motor impairment and lack of physical control. Blurred vision and major loss of balance. Euphoria is reduced and dysphoria (anxiety, restlessness) is beginning to appear. Judgment and perception are severely impaired.
+                </string>
+                <string name="BACeffects6" >Dysphoria predominates, nausea may appear. The drinker has the appearance of a "sloppy drunk."
+                </string>
+                <string name="BACeffects7" >Felling dazed, confused or otherwise disoriented. May need help to stand or walk. If you injure yourself you may not feel the pain. Some people experience nausea and vomiting at this level. The gag reflex is impaired and you can choke if you do vomit. Blackouts are likely at this level so you may not remember what has happened.
+                </string>
+                <string name="title_activity_result" >Result
+                </string>
+                <string name="BACeffects8" >All mental, physical and sensory functions are severely impaired. Increased risk of asphyxiation from choking on vomit and of seriously injuring yourself by falls or other accidents.
+                </string>
+                <string name="BACeffects9" >STUPOR. You have little comprehension of where you are. You may pass out suddenly and be difficult to awaken.
+                </string>
+                <string name="app_name" >Drinks Gage
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="BACeffects0" >No effects are visible.
+                </string>
+                <string name="BACeffects1" >No loss of coordination, slight euphoria and loss of shyness. Depressant effects are not apparent. Mildly relaxed and maybe a little lightheaded.
+                </string>
+                <string name="BACeffects2" >Feeling of well-being, relaxation, lower inhibitions, sensation of warmth. Euphoria. Some minor impairment of reasoning and memory, lowering of caution. Your behavior may become exaggerated and emotions intensified (Good emotions are better, bad emotions are worse).
+                </string>
+                <string name="BACeffects3" >Slight impairment of balance, speech, vision, reaction time, and hearing. Euphoria. Judgment and self-control are reduced, and caution, reason and memory are impaired, .08 is legally impaired and it is illegal to drive at this level. You will probably believe that you are functioning better than you really are.
+                </string>
+            </file>
+            <file
+                name="plus_ic"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/plus_ic.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="vodka"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/vodka.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="body_data"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/body_data.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="minus_button"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/minus_button.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="results"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/results.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="beer"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/beer.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects7"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects7.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="gradient_list"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/gradient_list.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="whiskey"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/whiskey.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="brandy"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/brandy.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/list_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="liqueur"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/liqueur.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_sexy_dial"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/button_sexy_dial.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="plus_button"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/plus_button.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rounded_txtvw_foc"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/rounded_txtvw_foc.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects6"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects6.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="share_buttons"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/share_buttons.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="add_another_button"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/add_another_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="gradient_bkg"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/gradient_bkg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="rum"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/rum.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wheel_val"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/wheel_val.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects5"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects5.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wheel_bg"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/wheel_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="drinks"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/drinks.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_sexy"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/button_sexy.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wine"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/wine.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects4"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects4.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="custom_drink"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/custom_drink.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects1"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects2"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects0"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects0.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tequilla"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/tequilla.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="baceffects3"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/baceffects3.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="reset"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/reset.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="gin"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/gin.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="when_started_drinking"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/when_started_drinking.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_drinks"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/activity_drinks.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="new_drink_dialog"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/new_drink_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wheel_item_hours"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/wheel_item_hours.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="body_data_dial"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/body_data_dial.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_start"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/activity_start.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="add_custom_button"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/add_custom_button.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_result"
+                path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/activity_result.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/raduh/Desktop/Workspace/DrinksGage/app/build/generated/res/rs/release" />
+        <source path="/home/raduh/Desktop/Workspace/DrinksGage/app/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/raduh/Desktop/Workspace/DrinksGage/app/src/release/res" />
+    </dataSet>
+
+</merger>

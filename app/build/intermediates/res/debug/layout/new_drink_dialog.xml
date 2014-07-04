@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="12dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_bkg">
+    
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="4dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:maxLength="8"
+        android:hint="Name of the beverage"
+        android:background="@drawable/rounded_txtvw_foc"/>
+    
+     <EditText
+       android:id="@+id/new_alcohol_content"
+       android:layout_below="@+id/new_name"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="15dp"
+       android:paddingLeft="4dp"
+       android:textSize="18sp"
+       android:inputType="numberDecimal"
+       android:maxLength="4"
+       android:hint="How much alcohol (%) does it contain?"
+       android:background="@drawable/rounded_txtvw_foc"/>
+       
+    <EditText
+       android:id="@+id/new_volume"
+       android:layout_below="@+id/new_alcohol_content"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="20dp"
+       android:paddingLeft="4dp"
+       android:textSize="18sp"
+       android:inputType="number"
+       android:maxLength="4"
+       android:hint="How many ml does a serving have?"
+       android:background="@drawable/rounded_txtvw_foc"/>
+    
+    <Button 
+        android:id="@+id/dial_add"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Add it"
+        android:background="@drawable/button_sexy_dial"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/new_volume"/>
+    
+    
+
+</RelativeLayout>
+<!-- From: file:/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/layout/new_drink_dialog.xml -->

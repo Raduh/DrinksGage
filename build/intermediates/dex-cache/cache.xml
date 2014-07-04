@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/raduh/Desktop/Workspace/DrinksGage/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a009830c8477b7ec26c5b91be1f810ce4078b2d3.jar"
+        jar="/home/raduh/Programe/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

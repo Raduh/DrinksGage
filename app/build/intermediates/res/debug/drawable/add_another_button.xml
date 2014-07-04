@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true">
+	    
+	    <shape>
+    <gradient
+        android:startColor="#F51616"
+        android:endColor="#E8C810"
+        android:type="linear"
+        />
+
+</shape>    
+	    
+	</item>	
+	
+	<item>
+	    <shape>
+
+    <gradient
+        android:startColor="#804087"
+        android:endColor="#772880"
+        android:gradientRadius="0.5"
+        android:type="radial"
+        />
+
+</shape>
+	    
+	</item>
+</selector><!-- From: file:/home/raduh/Desktop/Workspace/DrinksGage/app/src/main/res/drawable/add_another_button.xml -->
